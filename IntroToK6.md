@@ -14,7 +14,7 @@ You can simulate different traffic to see how your application performs in a var
 
 ## Testing types 🧪 
 
-![perf_test](perf_test.png)
+<img src="perf_test.png" alt="perf_test" width="400"/>
 
 With K6 there are a varienty of supported testing methods like Load Testing, Spike Testing & Soak Testing. The results of each type of testing will give different insights about your system & how it performs allowing you the developer to improve your system.
 
@@ -94,7 +94,8 @@ Well this just simply send one `GET` reguest to `https://test.k6.io` and then sl
 
 ## What are Virtual Users (VUs)?
 
-![vus](vus.png)
+<img src="vus.png" alt="vus" width="400"/>
+
 
 Now let me tell you about Virtual Users or VUs for short. These guys are friends that will performance test your system. The nice thing is you can generate as many VUs as you want! Infinite friends!
 
@@ -153,7 +154,8 @@ export const options = {
 Each scenario requires an executor and is the only required option when configuring scenarios. The rest all have default values.
 
 ## What are Executors? 💀
-![executor](executor.png)
+<img src="executor.png" alt="executor" width="400"/>
+
 
 
 These executors dont carry big axes, wear black masks and bring death, in fact k6 executors have a different purpose entirely!
@@ -276,7 +278,7 @@ Using the above command you can output test results to multiple platforms simult
 You can customise the format of the summary report by using `handleSummary()`. This function gets called at the end of each test.
 
 ## Conclusion
-![wizard](wizard.png)
+<img src="wizard.png" alt="wizard" width="400"/>
 
 This is the end, I cant believe you actually read all that! Well since you're here I want you to know you are now offically a K6 wizard!
 
